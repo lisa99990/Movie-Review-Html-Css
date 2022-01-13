@@ -1,0 +1,151 @@
+/* Name: Lisa Rajkarnikar 
+    This assignment is about CSS and HTML for layout, positioning, and the CSS box model.
+    This file contains the css code for tmnt.html */
+
+body{
+    background-image: url("images/background.png");
+    font-size: 8pt;
+    font-family: Verdana, Tahoma, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.banner{
+    text-align: center;
+    background-image: url(images/bannerbg.png);
+    height: 50px;
+}
+
+#bannerImgId{
+    height: 50px;
+}
+
+h1{
+    font-weight: bold;
+    font-size: 24pt;
+    font-family: Tahoma, Verdana, sans-serif;
+    text-align: center;
+    text-shadow: 3px 3px #999999;
+}
+
+.mainContent{
+    width: 800px;
+    margin: auto;
+    border: 4px solid gray;
+    border-radius: 20px;
+    overflow: auto; 
+    position: relative;
+}
+
+.leftSection{
+    width: 550px;
+}
+
+.rightSection{
+    position: absolute; 
+    left: 550px;
+    background-color: #A2B964;
+    font-size: 8pt;
+    font-family: Arial, sans-serif;
+}
+
+.rottenImg{
+    vertical-align: bottom;
+}
+
+.leftRottenHeader{
+    background-image: url(images/rbg.png);
+    height: 83px;
+}
+
+#rating{
+    font-size: 48pt;
+    font-weight: bold;
+    color: red;
+}
+
+.columnReview{
+    padding: 2%;
+}
+
+.columnReview:after {
+    content: "";
+    display: table;
+    clear: both;
+
+}
+
+.columnReviewElement{
+  width: 47%;
+}
+
+.floatRight{
+    float: right;
+}
+
+.floatLeft{
+    float: left;
+}
+
+.columnElement{
+    float : left;
+    width : 47%;
+}
+
+q{
+    font-weight: bold;
+    font-size: 8pt;
+}
+
+.reviewBox{
+    border: 2px gray solid;
+    background-color: #E8DC9B;
+    padding: 8px;
+    border-radius: 10px;
+}
+
+.reviewImage{
+    padding-right: 5px;
+    float: left;
+}
+
+.reviewer{
+    padding-right: 5px;
+    float: left;
+}
+
+.columnReview div{
+    padding-bottom: 20pt;
+}
+
+#rightText{
+    padding: 10pt;
+}
+
+#rightText dt{
+    font-weight: bold;
+}
+
+#rightText dd{
+padding-bottom: 10pt;
+}
+
+.no-bullets{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.footer{
+    background-color: #A2B964;
+    padding: 5px;
+    text-align: center;
+    margin-bottom: auto;
+}
+
+.validation{
+    opacity: 0.5;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+}
